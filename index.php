@@ -45,14 +45,14 @@ print '<!DOCTYPE html>
 <!------- Startsida ------------------------------------------------------------------------------->
     <div id="menu-1">
 <h3>Välkommen till Pensionat Bruntegården och restaurang Görgen på Höjden</h3>
-Bruntegården ligger högt beläget med milsvid utsikt över Siljan med byggnader som har anor sedan 1868. Pensionatet sedan 1950 med 14 stycken personligt inredda rum varav inget är det andra likt. För mer om rummen och priser klicka <a href="javascript:popup("3.jpg")"><font color=red>här</font></a><br>
+Bruntegården ligger högt beläget med milsvid utsikt över Siljan med byggnader som har anor sedan 1868. Pensionatet sedan 1950 med 14 stycken personligt inredda rum varav inget är det andra likt. För mer om rummen och priser klicka <a href="javascript:popup(\'3.jpg)\'><font color=red>här</font></a><br>
  <p />
 Vi som nu driver verksamheten är Görgen & Carolinne Tidén och Urban Svensson i bolag Gustamos AB.
 <p />
 Fokus ligger på god närproducerad mat tillagad med en stor portion kärlek.
 <p />
-Vi serverar a´la carte med goda mellanrätter onsdag - lördag 18:00 - 21:00, för meny klicka <a href="javascript:popup("2.jpg")"><font color=red>här</font></a> och <br>
-dagens lunch måndag-fredag 11.30-14.00, för veckans lunchmeny klicka <a href="javascript:popup("1.jpg")"><font color=red>här</font></a><br>
+Vi serverar a´la carte med goda mellanrätter onsdag - lördag 18:00 - 21:00, för meny klicka <a href="javascript:popup(\'2.jpg\')"><font color=red>här</font></a> och <br>
+dagens lunch måndag-fredag 11.30-14.00, för veckans lunchmeny klicka <a href="javascript:popup(\'1.jpg\')"><font color=red>här</font></a><br>
 <br>
 
 
@@ -76,7 +76,7 @@ att ni får ut det som ni tycker är viktigt av en konferens. Eftersom vi är ett l
 hotell så är ni alltid i centrum och slipper bli ett sällskap ”i mängden”.
 <p />
 Just nu har vi ett Konferenserbjudande som gäller under april och maj månad, mer info klicka 
-<a href="javascript:popup("2.jpg")"><font color=red>här</font></a>
+<a href="javascript:popup(\'2.jpg\')"><font color=red>här</font></a>
 <p />
 
 Önskar ni ett speciellt tema eller utflyktsmål så hjälper vi er gärna att planera.
