@@ -23,14 +23,14 @@ print '<!DOCTYPE html>
 </head>
 
 <!-- bgcolor=#966496 -->
-<body style="font-size:72.5%;" background="oldbg.png">
+<body style="font-size:72.5%;" background="/oldbg.png">
  
  <table border="0" cellspacing="0" cellpadding="0" width="748" align="center">
  <tr valign=top><td>
  
  <div class="ui-widget">
 
-<div class="ui-widget-content"><img src="bruntegarden.gif"> 
+<div class="ui-widget-content"><img src="/bruntegarden.gif"> 
 <div id="tabs">
     <ul>
         <li><a href="#menu-1"><span>Startsida</span></a></li>
