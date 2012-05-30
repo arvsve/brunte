@@ -3,9 +3,9 @@ print '<!DOCTYPE html>
 <html>
 <head>
 
-  <link href="jquery-ui.css" rel="stylesheet" type="text/css"/>
-  <script src="jquery.min.js"></script>
-  <script src="jquery-ui.min.js"></script>
+  <link href="/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="/jquery.min.js"></script>
+  <script src="/jquery-ui.min.js"></script>
   
   <script>
   $(document).ready(function() {
