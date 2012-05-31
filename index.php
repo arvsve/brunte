@@ -37,7 +37,7 @@ $url = $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 $url = str_replace("/", "%2F", $url);
 print "<a href=\"http://translate.google.com/translate?hl=en&sl=sv&tl=en&u=http%3A%2F%2F" . $url . "\"><img src=\"/en.gif\"></a>&nbsp;";
 print "<a href=\"http://translate.google.com/translate?hl=en&sl=sv&tl=de&u=http%3A%2F%2F" . $url . "\"><img src=\"/de.gif\"></a>&nbsp;";
-?><a href="javascript:history.go(-1)"><img src="/sv.gif"></a>
+?><!--<a href="javascript:history.go(-1)"><img src="/sv.gif"></a>-->
 
 <div class="ui-widget-content"><img src="/bruntegarden.gif"> 
 <div id="tabs">
