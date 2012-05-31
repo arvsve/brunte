@@ -37,8 +37,8 @@ $url = $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 $url = str_replace("/", "%2F", $url);
 print "<a href=\"http://translate.google.com/translate?hl=en&sl=sv&tl=en&u=http%3A%2F%2F" . $url . "\"><img src=\"/en.gif\"></a>&nbsp;";
 print "<a href=\"http://translate.google.com/translate?hl=en&sl=sv&tl=de&u=http%3A%2F%2F" . $url . "\"><img src=\"/de.gif\"></a>&nbsp;";
-print "<a href=\"http://" . $url . "\"><img src=\"/sv.gif\"></a>";
-?>
+?><a href="javascript:history.go(-1)"><img src="/sv.gif"></a>
+
 <div class="ui-widget-content"><img src="/bruntegarden.gif"> 
 <div id="tabs">
     <ul>
@@ -158,7 +158,7 @@ Välkommen att ringa för mer information. Tel, 0248 79 87 70
 <!------- Om oss ------------------------------------------------------------------------------->	
 
 <div id="om_oss">
-	<table border=0><tr><td nowrap><img src="/gorgen.png"></td><td nowrap>
+	<table border=0><tr><td><img src="/gorgen.png"></td><td>
 		<b>Görgen Tidén</b> Kökschef och driver restaurangen Görgen på Höjden.
 		<p />
 		Kockkarriären inleddes på Star Hotell, Stockholm.<br>
@@ -167,11 +167,11 @@ Välkommen att ringa för mer information. Tel, 0248 79 87 70
 		<br>Restaurant Chantecler chef Alain L´lorca på Hotel Negresco i Nice,<br>Fågelbrohus, samt på Restaurang Gässlingen och Restaurant GQ i Stockholm.<br>
 		Har bl a även gästspelat i köket på Restaurant L’Epicurien i Albi, Frankrike.
 		</td></tr>
-		<tr><td nowrap> </td nowrap><td>
+		<tr><td> </td><td>
 		
 		<b>Caroline Tidén</b> ...
 		</td></tr>
-		<tr><td nowrap> </td><td nowrap>
+		<tr><td> </td><td>
 		
 		<b>Urban Svensson</b> ..
 		
