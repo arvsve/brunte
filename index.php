@@ -15,6 +15,10 @@
 	popupwin = window.open(url, "popwin", "resizable=yes, width=600, height=845, directories=no, location=no, menubar=no, personalbar=no, scrollbars=yes, status=no, titlebar=no, toolbar=no");
 	popupwin.focus();
  }
+ function popup2(url) {
+	popupwin = window.open(url, "popwin", "resizable=yes, width=800, height=800, directories=no, location=no, menubar=no, personalbar=no, scrollbars=yes, status=no, titlebar=no, toolbar=no");
+	popupwin.focus();
+ }
 	
   </script>
  
@@ -33,7 +37,7 @@ $url = $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 $url = str_replace("/", "%2F", $url);
 print "<a href=\"http://translate.google.com/translate?hl=en&sl=sv&tl=en&u=http%3A%2F%2F" . $url . "\"><img src=\"/en.gif\"></a>&nbsp;";
 print "<a href=\"http://translate.google.com/translate?hl=en&sl=sv&tl=de&u=http%3A%2F%2F" . $url . "\"><img src=\"/de.gif\"></a>&nbsp;";
-print "<a href=" . $url . "\"\"><img src=\"/sv.gif\"></a>";
+print "<a href=\"http://" . $url . "\"><img src=\"/sv.gif\"></a>";
 ?>
 <div class="ui-widget-content"><img src="/bruntegarden.gif"> 
 <div id="tabs">
@@ -42,15 +46,17 @@ print "<a href=" . $url . "\"\"><img src=\"/sv.gif\"></a>";
         <li><a href="#catering"><span>Catering</span></a></li>
         <li><a href="#konferens"><span>Konferens</span></a></li>
         <li><a href="#fest_högtid"><span>Fest/Högtid</span></a></li>
+        <li><a href="#rummen"><span>Rummen</span></a></li>
         <li><a href="#om_oss"><span>Om oss</span></a></li>
         <li><a href="#kontakt_hitta_hit"><span>Kontakt/Hitta hit</span></a></li>
-    </ul>
+        <li><a href="#aktiviteter"><span>Aktiviteter</span></a></li>
+   </ul>
 	
 <!------- Startsida ------------------------------------------------------------------------------->
 
 <div id="startsida">
 <h3>Välkommen till Pensionat Bruntegården och restaurang Görgen på Höjden</h3>
-Bruntegården ligger högt beläget med milsvid utsikt över Siljan med byggnader som har anor sedan 1868. Pensionatet sedan 1950 med 14 stycken personligt inredda rum varav inget är det andra likt. För mer om rummen och priser klicka <a href="javascript:popup('3.jpg')"><font color=red>här</font></a><br>
+Bruntegården ligger högt beläget med milsvid utsikt över Siljan med byggnader som har anor sedan 1868. Pensionatet sedan 1950 med 14 stycken personligt inredda rum varav inget är det andra likt. För mer info om <font color=darkblue>Rummen</font> och priser klicka fliken ovan.
  <p />
 Vi som nu driver verksamheten är Görgen & Carolinne Tidén och Urban Svensson i bolag Gustamos AB.
 <p />
@@ -91,7 +97,7 @@ Först och främst letar vi efter ekologiska producenter runt knuten men vi ser oc
 <p />
 Vi anpassar din meny efter din budget. 
 <p />
-Välkommen med en förfrågan!
+<b>Välkommen med en förfrågan!</b>
 
 </div>
 
@@ -127,6 +133,22 @@ Välkommen att ringa för mer information. Tel, 0248 79 87 70
 		musik, DJ länk? egna mp3 spelare ..
 		<p />
 		Plats för brudvals..
+	
+		
+		
+		
+</div>
+	
+	
+<!------- Rummen ------------------------------------------------------------------------------->
+	
+<div id="rummen">
+		
+		Bilder / Bildspel ?
+	<p />
+	Priser per rum / säsong /event . . 
+	<p />
+	
 	
 		
 		
@@ -181,6 +203,38 @@ För karta klicka
 
 </div>
 
+<!------- Rummen ------------------------------------------------------------------------------->
+	
+<div id="aktiviteter">
+	 <b>Kultur</b>
+	 <p />
+Siljansringen är ett mycket kulturrikt område med mycket att se och höra, "man skulle kunna stanna här i ett halvår för att hinna se allt man vill se”, var det en gäst som sa.<br>
+Vi har allt från levande fäbodar till en av världens största utomhus konserthall Dalhalla.<br>Besök gärna <a href="javascript:popup2('http://www.rattvik.se')">www.rattvik.se</a> för mer information
+<p />
+<b>Ta på dig skidorna utanför entrén</b>
+<p />
+Rättviks slalombacke ligger ett stenkast från Bruntegården och erbjuder utförsåkning,<br>
+uthyrning av utrustning och längdåkning i naturskön miljö i det populära Tolvåsspåret.
+<p />
+<b>Nöje</b>
+<p />
+I Rättvik och dess omnejd finns det mycket att göra, allt från ångbåtsutflykt med middag och dans till konserter och pubar. Här kan man även ta dagen som den kommer och bara koppla av.
+<p />
+<b>Skogen runt knuten</b>
+<p />
+Tag en stärkande promenad, vi ligger mellan skog och samhälle i ett område 
+som heter Lerdal, ett perfekt utgångsläge oavsett vilken miljö ni väljer att promenera i.
+<p />
+Besök gärna <a href="javascript:popup2('http://www.rattvikbowling.se')">www.rattvikbowling.se</a> för en roligare vistelse i Rättvik.
+<p />
+För mer information: <a href="javascript:popup2('http://www.siljan.se')">www.siljan.se</a>
+	
+		
+		
+		
+</div>
+	
+<!-------------------------------------------------------------------------------------------------->	
 <div id="footer"><hr>Pensionat Bruntegården - Vålsvedsvägen 51, 795 35 Rätttvik - 0248-798 770 - pensionat@bruntegarden.se</div>
 </div>
 </div>
