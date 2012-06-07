@@ -62,11 +62,7 @@
 							</p>
 							
 		</p>
-		<ul>
-			<li>List item one</li>
-			<li>List item two</li>
-			<li>List item three</li>
-		</ul>
+	
 	</div>
 	<h3><a href="#">Fredrik</a></h3>
 	<div>
