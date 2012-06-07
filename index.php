@@ -21,6 +21,11 @@
 				popupwin.focus();
 			}
 
+
+			$(document).ready(function() {
+				$("#accordion").accordion();
+			});
+
 			function openTab(index) {
 				$('#tabs').tabs('select', index);
 			}
@@ -78,6 +83,7 @@
 							</li>
 						</ul>
 
+						<!-- slide picture script-->
 						<script>
 							<!--
 							//variable that will increment through the images
@@ -97,6 +103,15 @@
 
 							slideit()
 							//-->
+						</script>
+						<script type="text/javascript">
+							function showDescription(text) {
+								document.getElementById('information').innerHTML = text;
+							}
+
+							function clearDescription() {
+								document.getElementById('information').innerHTML = '';
+							}
 						</script>
 						<!------- Startsida ------------------------------------------------------------------------------->
 
@@ -135,6 +150,7 @@
 								F&ouml;r mer info klicka p&aring; flikarna ovan.
 							</p>
 							<h3>Hj&auml;rtligt v&auml;lkommen!</h3>
+							<a href="http://www.provlas.se/bladdra/9789153437741/" target="_blank"><img src="/images/smak_av_dalarna.jpg"  border="0" width="50" height="50" onmouseover="showDescription('Provl&auml;s boken <b>Smak av Dalarna</b> av Bo Masser, G&ouml;rgen Tid&eacute;n.')" onmouseout="clearDescription();"></a><div id="information"></div>
 						</div>
 
 						<!------- Catering ------------------------------------------------------------------------------->
@@ -215,13 +231,26 @@
 							Bilder / Bildspel ?
 							<br/>
 							Priser per rum / s&auml;song /event . .
+
+							<p>
+								Priser p&aring; v&aring;ra rum?
+							</p>
+							...Under denna s&auml;song varierar v&aring;ra priser beroende p&aring; helg och veckor.
+							Enkelrum-  Enkels&auml;ng, toalett, handfat och dusch i korridor.
+							<p>
+								Treb&auml;ddsrum- Tre b&auml;ddar, toalett, handfat och dusch i korridor.
+								Dubbelrum- Dubbels&auml;ng (vissa rum har tv&aring; enkels&auml;ngar), toalett,handfat och dusch.(Vissa rum har tv.)
+							</p>
+							Familjerum, fyrb&auml;ddsrum- Dubbels&auml;ng, 2 enkels&auml;ngar, tv&aring; rum, tv&aring; toaletter,handfat, dusch och Tv.
+							<br>
+							Minisvit- Dubbels&auml;ng, soffh&ouml;rna, Tv, milsvid utsikt &ouml;ver Siljan, Toalett, handfat och Bad.
+
 						</div>
 
 						<!------- Om oss ------------------------------------------------------------------------------->
-
 						<div id="om_oss">
 
-							<img src="/images/gorgen.png" style="float:left;margin-right:20px;" />
+							<img src="/images/gorgen.png" border="0" width="150" height="150" style="float:left;margin-right:20px;" />
 							<p>
 								<b>G&ouml;rgen Tid&eacute;n</b> K&ouml;kschef och driver restaurangen G&ouml;rgen p&aring; H&ouml;jden.
 							</p>
@@ -230,7 +259,7 @@
 							D&auml;refter lagat mat p&aring; bl a restaurang Metaxa, Korfu, I&#180;latino, Florence,
 							<br>
 							p&aring; Sigtuna Stadshotell, d&auml;r han var souschef, p&aring; Kristina konferens i Sigtuna, k&ouml;kschef,
-							<br>
+
 							Restaurant Chantecler chef Alain L&#180;lorca p&aring; Hotel Negresco i Nice,
 							<br>
 							F&aring;gelbrohus, samt p&aring; Restaurang G&auml;sslingen och Restaurant GQ i Stockholm
@@ -239,18 +268,19 @@
 							<br>
 							<div style="clear:both"></div>
 
-							<img src="/images/carolinne.png" style="float:left;margin-right:20px;margin-top:10px;" />
+							<img src="/images/carolinne.png" border="0" width="150" height="150" style="float:left;margin-right:20px;margin-top:10px;" />
 							<p>
 								<b>Caroline Tid&eacute;n</b>
 							</p>
 							. . .
 							<div style="clear:both"></div>
 
-							<img src="/images/missing.png" style="float:left;margin-right:20px;margin-top:10px;" />
+							<img src="/images/missing.png"  border="0" width="150" height="150" style="float:left;margin-right:20px;margin-top:10px;" />
 							<p>
 								<b>Urban Svensson</b>
 							</p>
 							. . .
+
 						</div>
 
 						<!------- Kontakt/Hitta hit ------------------------------------------------------------------------------->
@@ -287,7 +317,7 @@
 							<h2>Ta p&aring; dig skidorna utanf&ouml;r entr&eacute;n</h2>
 							<p>
 								R&auml;ttviks slalombacke ligger ett stenkast fr&aring;n Brunteg&aring;rden och erbjuder utf&ouml;rs&aring;kning,
-								uthyrning av utrustning och l&auml;ngd&aring;kning i natursk&ouml;n milj&ouml; i det popul&auml;ra Tolv&aring;ssp&aring;ret.
+								uthyrning av utrustning och l&auml;ngd&aring;kning i natursk&ouml;n milj&ouml; i det popul&auml;ra <a href="javascript:popup2('http://www.rattviksbacken.se/skidspar.html')">Tolv&aring;ssp&aring;ret.</a>
 							</p>
 
 							<h2>N&ouml;je</h2>
