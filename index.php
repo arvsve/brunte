@@ -26,7 +26,7 @@
 							<p>
 								Brunteg&aring;rden ligger h&ouml;gt bel&auml;get med milsvid utsikt &ouml;ver Siljan med byggnader som har anor sedan 1868.
 								Pensionatet sedan 1950 med 14 stycken personligt inredda rum varav inget &auml;r det andra likt.
-								F&ouml;r mer info om <a href="javascript:openTab(4)">Rummen</a> och priser klicka fliken ovan.
+								F&ouml;r mer info om <a class="rummen"href="rummen.php">Rummen</a> och priser klicka fliken ovan.
 							</p>
 							<p>
 								Vi som nu driver verksamheten &auml;r G&ouml;rgen &amp; Carolinne Tid&eacute;n och Urban Svensson i bolag Gustamos AB.
@@ -50,15 +50,23 @@
 								Vi kan &auml;ven erbjuda <a class="catering"href="catering.php">Catering</a> f&ouml;r b&aring;de stora &amp; sm&aring; evenemang som f&ouml;delsedagar, br&ouml;llop samt konferenser.
 							</p>
 							<p>
-								Vi kan ocks&aring; skr&auml;ddarsy er <a class="catering"href="konferens.php">Konferens</a> eller <a class="catering"href="fest_hogtid.php">Fest/H&ouml;gtid</a> h&auml;r p&aring; hotellet.
+								Vi kan ocks&aring; skr&auml;ddarsy er <a class="konferens"href="konferens.php">Konferens</a> eller <a class="fest_hogtid"href="fest_hogtid.php">Fest/H&ouml;gtid</a> h&auml;r p&aring; hotellet.
 							</p>
 							<p>
 								F&ouml;r mer info klicka p&aring; flikarna ovan.
 							</p>
 							<h3>Hj&auml;rtligt v&auml;lkommen!</h3>
-							<a href="http://www.provlas.se/bladdra/9789153437741/" target="_blank"><img src="/images/smak_av_dalarna.jpg"  border="0" width="50" height="50" onmouseover="showDescription('Provl&auml;s boken <b>Smak av Dalarna</b> av Bo Masser, G&ouml;rgen Tid&eacute;n.')" onmouseout="clearDescription();"></a><div id="information"></div>
+							
+						 <a href="javascript:popup2('http://www.provlas.se/bladdra/9789153437741/')"><img src="/images/smak_av_dalarna.jpg"  border="0" width="50" height="50" onmouseover="showDescription('Provl&auml;s boken <b>Smak av Dalarna</b> av Bo Masser, G&ouml;rgen Tid&eacute;n.')" onmouseout="clearDescription();"></a>	
+							
+							
+							<div id="information"></div>
 </div>
 <?php include_once("footer.php"); ?>	
 </div>
 </body>
 </html>
+
+
+
+
