@@ -7,7 +7,7 @@
 	var image3 = new Image();
 	image3.src = "/images/brt_solnedgang.png";		
 	var image4 = new Image();
-	image4.src = "/images/brunte_6b.png";		
+	image4.src = "/images/brunte_6b.jpg";		
 	
 	function popup(url) {
 		popupwin = window.open(url, "popwin", "resizable=yes, width=600, height=845, directories=no, location=no, menubar=no, personalbar=no, scrollbars=yes, status=no, titlebar=no, toolbar=no");
