@@ -13,15 +13,7 @@
 
 <div id="bodyContainer">
  <div id="bodyContentContainer">
-   						<script type="text/javascript">
-							function showDescription(text) {
-								document.getElementById('information').innerHTML = text;
-							}
-
-							function clearDescription() {
-								document.getElementById('information').innerHTML = '';
-							}
-						</script>
+ 
    							<h3>V&auml;lkommen till Pensionat Brunteg&aring;rden och restaurang G&ouml;rgen p&aring; H&ouml;jden</h3>
 							<p>
 								Brunteg&aring;rden ligger h&ouml;gt bel&auml;get med milsvid utsikt &ouml;ver Siljan med byggnader som har anor sedan 1868.
@@ -57,10 +49,10 @@
 							</p>
 							<h3>Hj&auml;rtligt v&auml;lkommen!</h3>
 							
-						 <a href="javascript:popup2('http://www.provlas.se/bladdra/9789153437741/')"><img src="/images/smak_av_dalarna.jpg"  border="0" width="50" height="50" onmouseover="showDescription('Provl&auml;s boken <b>Smak av Dalarna</b> av Bo Masser, G&ouml;rgen Tid&eacute;n.')" onmouseout="clearDescription();"></a>	
+						<a href="javascript:popup2('http://www.provlas.se/bladdra/9789153437741/')"><img src="/images/smak_av_dalarna.jpg"  border="0" width="50" height="50" onmouseover="showDescription('Provl&auml;s boken <b>Smak av Dalarna</b> av Bo Masser, G&ouml;rgen Tid&eacute;n.')" onmouseout="clearDescription();"></a>	
 							
 							
-							<div id="information"></div>
+							<div id="information"></div> 
 </div>
 <?php include_once("footer.php"); ?>	
 </div>

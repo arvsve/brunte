@@ -16,7 +16,7 @@
 
 							<img src="/images/cater1.png" style="float:left;;margin-right:20px;" />
 							<p>
-								I Vasaloppst&auml;ltet 2012 ansvarade vi f&ouml;r mat och dryck till ca 15 000 g&auml;ster under 12 dagar.
+								I Vasaloppst&auml;ltet 2012 ansvarade vi f&ouml;r mat och dryck till ca 15&nbsp;000 g&auml;ster under 12 dagar.
 							</p>
 							<p>
 								P&aring; landsh&ouml;vdingens residence i Falun serveras ibland en hjortrondessert a&#180;la G&ouml;rgen, foto Bruno Ehrs.
