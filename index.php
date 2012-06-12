@@ -2,6 +2,8 @@
 <?php date_default_timezone_set("Europe/Paris"); ?>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="jquery-ui.css" rel="stylesheet" type="text/css"/>
+
 <title>Brunteg&aring;rden Startsida</title>
 </head>
 <body>
@@ -54,8 +56,9 @@
 							
 							<div id="information"></div> 
 </div>
-<?php include_once("footer.php"); ?>	
 </div>
+<?php include_once("footer.php"); ?>	
+
 </body>
 </html>
 

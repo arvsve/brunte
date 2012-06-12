@@ -2,6 +2,8 @@
 <head>
 <link href="style.css" rel="stylesheet" type="text/css"/>
 <title>Bruntegården Aktiviteter</title>
+<link href="jquery-ui.css" rel="stylesheet" type="text/css"/>
+
 </head>
 <body>
 
@@ -41,7 +43,8 @@
 								F&ouml;r mer information: <a href="javascript:popup2('http://www.siljan.se')">www.siljan.se</a>
 							</p>
  </div>
- <?php include_once("footer.php"); ?>
 </div>
+ <?php include_once("footer.php"); ?>
+
 </body>
 </html>

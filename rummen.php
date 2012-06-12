@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-ui.css" rel="stylesheet" type="text/css"/>
+
 <title>Bruntegården Rummen</title>
 </head>
 <body>
@@ -31,7 +33,8 @@
 							Minisvit- Dubbels&auml;ng, soffh&ouml;rna, Tv, milsvid utsikt &ouml;ver Siljan, Toalett, handfat och Bad.
 
  </div>
-<?php include_once("footer.php"); ?>	
 </div>
+<?php include_once("footer.php"); ?>	
+
 </body>
 </html>

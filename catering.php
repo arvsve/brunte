@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-ui.css" rel="stylesheet" type="text/css"/>
+
 <title>Bruntegården Catering</title>
 </head>
 <body>
@@ -43,7 +45,8 @@
 								<b>V&auml;lkommen med en f&ouml;rfr&aring;gan!</b>
 							</p>
  </div>
- 		<?php include_once("footer.php"); ?>	
 </div>
+ 		<?php include_once("footer.php"); ?>	
+
 </body>
 </html>

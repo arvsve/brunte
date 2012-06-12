@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-ui.css" rel="stylesheet" type="text/css"/>
+
 <title>Bruntegården Fest/Högtid</title>
 </head>
 <body>
@@ -28,7 +30,8 @@
 								Plats f&ouml;r brudvals..
 							</p>
  </div>
- 		<?php include_once("footer.php"); ?>	
 </div>
+ 		<?php include_once("footer.php"); ?>	
+
 </body>
 </html>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-ui.css" rel="stylesheet" type="text/css"/>
+
 <title>Bruntegården Kontakt/Hitta hit</title>
 </head>
 <body>
@@ -47,7 +49,8 @@
 							
  
  </div>
- <?php include_once("footer.php"); ?>
 </div>
+ <?php include_once("footer.php"); ?>
+
 </body>
 </html>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-ui.css" rel="stylesheet" type="text/css"/>
+
 <title>Bruntegården Konferens</title>
 </head>
 <body>
@@ -51,7 +53,8 @@ med G&ouml;rgen mat smakfullt fotograferad av Bruno Ehrs</i><p>
 							
 </div>
  </div>
- <?php include_once("footer.php"); ?>	
 </div>
+ <?php include_once("footer.php"); ?>	
+
 </body>
 </html>
