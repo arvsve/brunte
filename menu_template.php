@@ -1,6 +1,7 @@
 <?php
 
 $index       		= "myButtons";
+$restaurang    		= "myButtons";
 $catering    		= "myButtons";
 $konferens	 		= "myButtons";
 $fest_hogtid 		= "myButtons";
@@ -16,6 +17,9 @@ if($menuLinkId == "index"){
  }
  else if($menuLinkId == "catering"){
  $catering = 'myActiveButton';
+ } 
+  else if($menuLinkId == "restaurang"){
+ $restaurang = 'myActiveButton';
  } 
  else if($menuLinkId == "konferens"){
  $konferens = 'myActiveButton';
@@ -39,6 +43,7 @@ if($menuLinkId == "index"){
  ?>
  
  <a class="<?php echo $index; ?>"href="index.php">Startsida</a>
+ <a class="<?php echo $restaurang; ?>"href="restaurang.php">Restaurang</a>
  <a class="<?php echo $catering; ?>"href="catering.php">Catering</a>
  <a class="<?php echo $konferens; ?>"href="konferens.php">Konferens</a>
  <a class="<?php echo $fest_hogtid; ?>"href="fest_hogtid.php">Fest/H&ouml;gtid</a>
